@@ -24,16 +24,16 @@ When you start your container you have to specify few environement variables suc
 
 
 | Name | Description | Mandatory | Default |
-|---|---|---|---|---|
+|---|---|---|---|
 | AZURE_CLIENT_ID | Azure Client ID | Yes | - |
 | AZURE_CLIENT_SECRET | Azure Client Secret | Yes | - |
 | AZURE_TENANT_ID | Azure Tenant ID | Yes | - |
 | AZURE_SUBSCRIPTION_ID | Azure Subscription ID | Yes | - |
 | LOGSTASHSERVER | LogStash server to send to the metrics | Yes | - |
 | LOGSTASHPORT| LogStash port to send the metrics | Yes | - |
-| TIMER | Time to wait between two requests. Warning ! This could | No | 300 | - |
-| GENERATE | See bellow | No| No | - |
-| PREFIX | See bellow | No | "" | - |
+| TIMER | Time to wait between two requests. Warning ! This could | No | 300 |
+| GENERATE | See bellow | No| No |
+| PREFIX | See bellow | No | "" |
 
 
 > Warning ! The value of TIMER can influence the size of your ElasticSearch Backend
