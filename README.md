@@ -341,3 +341,6 @@ output {
 	}
 }
 ```
+
+
+You can check a example [on my fork here](https://github.com/julienstroheker/docker-elk/tree/master/azurelogs)
