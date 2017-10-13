@@ -24,7 +24,7 @@ When you start your container you have to specify few environement variables suc
 
 
 | Name | Description | Mandatory | Default |
-|----|-----|-----|-----|-----
+|---|---|---|---|---|
 | AZURE_CLIENT_ID | Azure Client ID | Yes | - |
 | AZURE_CLIENT_SECRET | Azure Client Secret | Yes | - |
 | AZURE_TENANT_ID | Azure Tenant ID | Yes | - |
