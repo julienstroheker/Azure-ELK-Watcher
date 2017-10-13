@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "AV7tQftCSo8UFX_v4yKn",
+    "_type": "dashboard",
+    "_source": {
+      "title": "test6firstrow",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":2,\"size_y\":3,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"limit-availabilitySets-australiaeast\",\"col\":1,\"row\":1},{\"size_x\":2,\"size_y\":3,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"limit-availabilitySets-australiasoutheast\",\"col\":3,\"row\":1},{\"size_x\":2,\"size_y\":3,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"limit-availabilitySets-brazilsouth\",\"col\":5,\"row\":1},{\"size_x\":2,\"size_y\":3,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"limit-availabilitySets-canadacentral\",\"col\":7,\"row\":1},{\"size_x\":2,\"size_y\":3,\"panelIndex\":5,\"type\":\"visualization\",\"id\":\"limit-availabilitySets-canadaeast\",\"col\":9,\"row\":1},{\"size_x\":2,\"size_y\":3,\"panelIndex\":6,\"type\":\"visualization\",\"id\":\"limit-availabilitySets-centralindia\",\"col\":11,\"row\":1}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"defaultColors\":{\"0 - 80\":\"rgb(0,104,55)\",\"80 - 90\":\"rgb(255,255,190)\",\"90 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-2\":{\"vis\":{\"defaultColors\":{\"0 - 80\":\"rgb(0,104,55)\",\"80 - 90\":\"rgb(255,255,190)\",\"90 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-3\":{\"vis\":{\"defaultColors\":{\"0 - 80\":\"rgb(0,104,55)\",\"80 - 90\":\"rgb(255,255,190)\",\"90 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-4\":{\"vis\":{\"defaultColors\":{\"0 - 80\":\"rgb(0,104,55)\",\"80 - 90\":\"rgb(255,255,190)\",\"90 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-5\":{\"vis\":{\"defaultColors\":{\"0 - 80\":\"rgb(0,104,55)\",\"80 - 90\":\"rgb(255,255,190)\",\"90 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}},\"P-6\":{\"vis\":{\"defaultColors\":{\"0 - 80\":\"rgb(0,104,55)\",\"80 - 90\":\"rgb(255,255,190)\",\"90 - 100\":\"rgb(165,0,38)\"},\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"match_all\":{}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  }
+]
