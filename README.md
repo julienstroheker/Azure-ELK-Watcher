@@ -6,6 +6,12 @@ For example, you can watch the core(s) consumption, or the number of VMs, storag
 
 ![](./imgs/VisuMetrics.png)
 
+## How to run it
+
+```bash
+# Example using docker run
+$ docker run -it --rm -e AZURE_CLIENT_ID="XXXXXXX" -e AZURE_CLIENT_SECRET="XXXXXXX" -e AZURE_TENANT_ID="XXXXXXX" -e AZURE_SUBSCRIPTION_ID="XXXXXXX" -e LOGSTASHSERVER=logstash -e LOGSTASHPORT=5000 -e TIMER=500 -e PREFIX=MySub julienstroheker/azure-elk-watcher
+```
 
 
 ## Architecture
@@ -121,7 +127,7 @@ It is a one shot process, so the recomandation is to run that one on the side of
 
 ``` bash
 # Example using docker run
-$ docker run -it --rm -e AZURE_CLIENT_ID="XXXXXXX" -e AZURE_CLIENT_SECRET="XXXXXXX" -e AZURE_TENANT_ID="XXXXXXX" -e AZURE_SUBSCRIPTION_ID="XXXXXXX" -e LOGSTASHSERVER=logstash -e LOGSTASHPORT=5000 -e TIMER=500 -e GENERATE=yes -e PREFIX=MySub
+$ docker run -it --rm -e AZURE_CLIENT_ID="XXXXXXX" -e AZURE_CLIENT_SECRET="XXXXXXX" -e AZURE_TENANT_ID="XXXXXXX" -e AZURE_SUBSCRIPTION_ID="XXXXXXX" -e LOGSTASHSERVER=logstash -e LOGSTASHPORT=5000 -e TIMER=500 -e GENERATE=yes -e PREFIX=MySub julienstroheker/azure-elk-watcher
 ```
 
 ![](./imgs/GenVisuBash.png)
