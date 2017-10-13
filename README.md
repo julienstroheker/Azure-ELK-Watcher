@@ -152,6 +152,10 @@ In this example we :
 - Parsing and transforming value in logstash
 - Using the curl plugin in logstash
 
+How to :
+1. Clone [https://github.com/deviantony/docker-elk](https://github.com/deviantony/docker-elk)
+2. Clone this repo inside the docker-elk folder
+3. Modify the `docker-compose.yml`
 
 Contain of the `docker-compose.yml` file :
 
@@ -245,7 +249,7 @@ services:
       - elasticsearch
 
   azurelogsops:
-    build: azurelogs/
+    build: azure-elk-watcher/
     environment:
       AZURE_CLIENT_ID: "XXXXXXXXXXXXX"
       AZURE_CLIENT_SECRET: "XXXXXXXXXXXXX"
@@ -262,7 +266,7 @@ services:
       - logstashops
 
   azurelogssub1:
-    build: azurelogs/
+    build: azure-elk-watcher/
     environment:
       AZURE_CLIENT_ID: "XXXXXXXXXXXXX"
       AZURE_CLIENT_SECRET: "XXXXXXXXXXXXX"
@@ -279,7 +283,7 @@ services:
       - logstashsub1
 
   azurelogssub2:
-    build: azurelogs/
+    build: azure-elk-watcher/
     environment:
       AZURE_CLIENT_ID: "XXXXXXXXXXXXX"
       AZURE_CLIENT_SECRET: "XXXXXXXXXXXXX"
@@ -296,7 +300,7 @@ services:
       - logstashsub2
 
   azurelogssub3:
-    build: azurelogs/
+    build: azure-elk-watcher/
     environment:
       AZURE_CLIENT_ID: "XXXXXXXXXXXXX"
       AZURE_CLIENT_SECRET: "XXXXXXXXXXXXX"
